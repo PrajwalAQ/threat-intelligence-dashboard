@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# Node.js
+frontend/node_modules/
+
+# OS
+.DS_Store
+
+# Model files
+backend/model/*.pkl
