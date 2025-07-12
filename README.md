@@ -308,6 +308,22 @@ Wrong ML predictions	Re-run train_model.py, verify data is cleaned
 MongoDB not connecting	Start with brew services start mongodb-community@6.0
 /api/analyze not working	Ensure analyze.py is running and model files exist
 
+## How To Run
+
+ STEP 1: Initialize Mongo DB
+ brew services start mongodb-community@6.0
+ 
+ STEP 2: Start Backend
+ route to backend location
+ source venv/bin/activate
+ python app.py
+ 
+ STEP 3: Start Frontenf
+ route to frontend
+ npm install 
+ npm start
+
+ 
 ### 👨‍💻 Author
 Prajwal Quadras
 Full Stack Developer | Cybersecurity Enthusiast
